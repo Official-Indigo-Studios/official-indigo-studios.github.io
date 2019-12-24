@@ -1714,6 +1714,7 @@ a,
 .btn-social {
   opacity: 0.85;
   padding: 8px 9px;
+  font-weight: 100;
 }
 .btn-social .fa {
   font-size: 18px;
