@@ -9,9 +9,18 @@
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #5800b3 ;
+  background-color: #5800b3;
 }
 
 .card:hover {
     cursor: pointer;
+}
+
+.button-get-started .btn {
+    border: none;
+}
+
+.button-get-started .btn:hover {
+    background-color: #9633ff;
+    color: white;
 }
