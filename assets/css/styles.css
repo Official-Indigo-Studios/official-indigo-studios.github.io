@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     color: white;
     background: #bd80ff;
@@ -23,4 +27,8 @@ body::-webkit-scrollbar-thumb {
 .button-get-started .btn:hover {
     background-color: #9633ff;
     color: white;
+}
+
+.card-member a {
+    color: blue;
 }
