@@ -99,6 +99,19 @@ $(window).on('scroll',function(){
 
 });
 
+// Additional JS to fix navbar on load lower than navbar change pos
+$(document).ready(function() {
+    gaia.checkScrollForTransparentNavbar();
+
+    if(window_width > 992){
+        gaia.checkScrollForParallax();
+    }
+
+    if(content_opacity == 1 ){
+        gaia.checkScrollForContentTransitions();
+    }
+});
+
 $('a[data-scroll="true"]').click(function(e){
     var scroll_target = $(this).data('id');
     var scroll_trigger = $(this).data('scroll');
