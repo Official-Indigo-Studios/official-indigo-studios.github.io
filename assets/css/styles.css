@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
         }
 }
 
-.title-area {
+#main-title-area {
     animation: letsGo 1.25s 1 0s ease;
 }
 
@@ -54,19 +54,4 @@ h2 a {
 
 .card-member a {
     color: blue;
-}
-
-@keyframes serviceAnim {
-    0%{
-        transform: translateY(200%);
-        opacity: 0;
-        }
-    100%{
-        transform: translateY(0%);
-        opacity: 1;
-        }
-}
-
-.service-anim {
-    animation: serviceAnim 0.5s 1 0s ease-in;
 }
