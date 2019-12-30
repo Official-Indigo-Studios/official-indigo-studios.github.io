@@ -16,6 +16,25 @@ body::-webkit-scrollbar-thumb {
   background-color: #5800b3;
 }
 
+@keyframes letsGo {
+    0%{
+        transform: translateY(100%);
+        opacity: 0.1;
+        }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+        }
+}
+
+.title-area {
+    animation: letsGo 1.25s 1 0s ease;
+}
+
+#letsgo {
+    animation: letsGo 2s 1 0s ease;
+}
+
 h2 a {
     font-family: "Poppins", "Times New Roman", serif;
 }
@@ -35,4 +54,19 @@ h2 a {
 
 .card-member a {
     color: blue;
+}
+
+@keyframes serviceAnim {
+    0%{
+        transform: translateY(200%);
+        opacity: 0;
+        }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+        }
+}
+
+.service-anim {
+    animation: serviceAnim 0.5s 1 0s ease-in;
 }
