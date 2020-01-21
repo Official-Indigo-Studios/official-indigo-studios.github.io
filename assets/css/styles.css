@@ -39,6 +39,23 @@ h2 a {
     font-family: "Poppins", "Times New Roman", serif;
 }
 
+p a {
+    color: blue;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: cornflowerblue;
+}
+
+.header-parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card:hover {
     cursor: pointer;
 }
