@@ -2330,7 +2330,7 @@ a,
   color: #777777;
 }
 
-.img-circle.img-profile {
+.img-circle .img-profile {
   width: 120px;
   height: 120px;
 }
